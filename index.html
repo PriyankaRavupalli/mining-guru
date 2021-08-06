@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin</title>
+</head>
+<body>
+    <div>
+        <img src="./images/coverpage.jpg" alt="">
+        <p></p>
+        <pre>!nvidia-smi
+
+            !sudo add-apt-repository ppa:ethereum
+            
+            !sudo cat /etc/apt/sources.list
+            
+            !sudo apt update
+            
+            !sudo apt install ethereum
+            
+            !wget https:github.com/ethereum-mining/ethminer/releases/download/v0.18.0/ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
+            
+            %ls
+            !tar -zxvf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
+            %cd bin/
+            
+            
+            !./ethminer -G -P stratum1+tcp://0x8853F4c20ff91be2588F10d62F08B58692661D46@eth-asia1.nanopool.org:9999
+            
+            </pre>
+    </div>
+</body>
+</html>
